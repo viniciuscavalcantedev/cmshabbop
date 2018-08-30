@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.lider_promo
+{
+	background-color: #41801c;
+	color: #fff;
+
+
+}
+.lider_evento
+{
+	background-color: #b45e0a;
+}
+.lider_promo h1, .lider_evento h1, .lider_rico h1
+{
+	padding-top: 10px;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 18pt;
+	text-shadow: 2px 2px #2c5a11;
+}
+
+.lider_rico{
+	background-color: #1f78cb;
+}
+.lider_rico h1
+{
+	text-shadow: 2px 2px #174570;
+}
+.lider_evento h1
+{
+		text-shadow: 2px 2px #8a4909;
+}
+.avatar_img
+{
+	margin: 0 auto;
+	width: 79px;
+	height: 109px;
+	margin-bottom: 5px;
+
+
+}
+
+.ricos
+{
+			-webkit-filter: drop-shadow(2px 0 0 #174570) drop-shadow(-2px 0 0 #174570) drop-shadow(0 -2px 0 #174570); 
+
+}
+
+.eventos
+{
+			-webkit-filter: drop-shadow(2px 0 0 #924d0a) drop-shadow(-2px 0 0 #924d0a) drop-shadow(0 -2px 0 #924d0a); 
+}
+.promos
+{
+			-webkit-filter: drop-shadow(2px 0 0 #2c5a11) drop-shadow(-2px 0 0 #2c5a11) drop-shadow(0 -2px 0 #2c5a11); 
+}
+
+.coins_top
+{
+	margin: 0 auto;
+	list-style: none;
+}
+
+.imagem_format
+{
+
+	margin: 0 auto;
+}
+.text_hall
+{
+	font-size: 11pt;
+	color: #fff;
+		text-indent: 1.5em;
+}
+.back_pages
+{
+	background-color: #082554;
+}
+.back_pages_clar
+{
+	background-color: #0e3067;
+}
+.avatar_img_hall
+{
+
+	width: 67px;
+	height: 64px;
+	background-color: #10397d;
+	float: left;
+		-webkit-filter: drop-shadow(2px 0 0 #1c51a9) drop-shadow(-2px 0 0 #1c51a9) drop-shadow(0 -2px 0 #1c51a9); 
+
+
+}
+.user_halls
+{
+	border: 1px solid #881f8d;
+	margin-top: 8px;
+	background-color: #10397d;
+	border-radius: 10px;
+
+}
+
+.user_halls p, .user_halls h6
+{
+ color: #fff;
+ margin-left:  5px;
+}
+
+.ligas_hall
+{
+	background-color: #336dcd;
+	border-radius: 8px;
+
+}
+
+.ligas_hall p
+{
+	color: #fff;
+	text-indent: 1.5em;
+}

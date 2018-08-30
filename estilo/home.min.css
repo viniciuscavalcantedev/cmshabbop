@@ -1,0 +1,253 @@
+@charset = "UTF-8";
+
+#principal_fundo{
+	background-image: url('../img/nuvens_azul.png');
+}
+
+.avatares{
+	width: 74px;
+	background: #0b2960;
+	border-radius: 9px;
+	border: 3px solid #12449f;
+	color: #fff;
+	float: left;
+}
+
+.row_espaco{
+	margin-top: 70px;
+	margin-bottom: 56px;
+}
+.avatares-about{
+	width: 250px;
+	background: #0b2960;
+	margin-left: 105px;
+	border-radius: 9px;
+	border: 3px solid #12449f;
+	float: none;
+	color: #fff;
+	overflow: hidden;
+
+}
+.avatar_name{
+	margin-left: 105px;
+}
+.avatar_name{
+	color: #fff;
+	margin-left: 105px;
+}
+
+.avatar_coins{
+	margin-top: 9px;
+}
+.avatar_coins ul{
+	margin-left: 75px;
+	list-style: none;
+}
+.avatar_coins ul li{
+	display: inline;
+	padding: 3px;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #9819be;
+	background-color: #550c6b;
+}
+.avatar_coins ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.avatar_coins ul li a:hover{
+	text-decoration: underline;
+}
+
+.button_home{
+	background-color: #76187a;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #f50cff;
+	width: 250px;
+	height: 60px;
+	cursor: pointer;
+
+}
+.button_home:hover{
+	background-color: #86148b;
+	border: 1px solid #7e1582;
+}
+.button_list{
+	margin-top: 8px;
+	list-style: none;
+	margin-left: 17%;
+}
+
+.button_list li{
+	display: inline;
+	padding: 3px;
+
+}
+
+.button_list li a button{
+
+	background-color: #154697;
+	border: 1px solid #1d5cc4;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+
+}
+
+.button_list li a button:hover{
+
+	background-color: #1d5cc4;
+	border: 1px solid #154697;
+}
+.menu_top{
+	list-style: none;
+	background: #0c3475;
+	border-radius: 7px;
+	border: 5px solid #1750ae;
+	padding: 8px;
+}
+.menu_top li{
+	display: inline;
+	padding: 3px;
+}
+.menu_top li a{
+	color: #fff;
+	text-decoration: none;
+}
+.menu_top li a:hover{
+	text-decoration: underline;
+	
+}
+.cont_box{
+	background-color: #0d2a59;
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: 3px solid #f50cff;
+	padding-bottom: 5px;
+}
+.menu_tags{
+	margin-top: 13px;
+	list-style: none;
+}
+
+.menu_tags li{
+	display: inline;
+	background-color: #072048;
+	border-radius: 15px;
+	padding: 3px;
+}
+.menu_tags li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+.pinks{
+	color: #f50cff;
+}
+.pinks:hover{
+	color: #f50cff;
+}
+
+.greens:hover{
+	color: #77de11;
+}
+
+.oranges:hover{
+	color: #de7711
+}
+
+.blue:hover{
+	color: #2f6cd1;
+}
+.room_list{
+	padding-top: 5px;
+	background-color: #032453;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	transition: border-bottom 0.5s;
+}
+.room_list:hover{
+	background-color: #082856;
+	border-bottom: 1px solid #f50cff;
+}
+.room_list ul{
+	list-style: none
+}
+
+.room_list ul li{
+	color: #fff;
+}
+.room_icon{
+
+float: left;
+}
+
+.carousel_title{
+	transition: background-color 0.5s;
+}
+
+.carousel_title:hover{
+	background-color: rgba(0,0,0,.4);
+}
+
+.row_articles{
+	background-color: #0a1f55;
+}
+.img_article{
+
+margin-left: 10px;
+ border-radius: 10px;
+ width: 124px;
+ height: 124px;
+ overflow: hidden;
+ border: 2px solid #3a6ef8;
+ float: left;
+ margin-right: 9px;
+}
+
+.title_articles{
+	margin-top: 5px;
+}
+
+.title_articles h6, .title_articles span, .title_articles p{
+	color: #fff;
+
+}
+
+.title_articles .tags_span{
+	background-color: #020e21;
+	background-color: 8px;
+	margin-top: 3px;
+	padding: 2px;
+	border-radius: 10px;
+	font-size: 10pt;
+}
+
+.title_articles ul{
+	list-style: none;
+
+}
+
+.title_articles ul li{
+	padding: 2px;
+	display: inline;
+}
+.p_date{
+	font-size: 10pt;
+}
+.titles_articles_habbop{
+ margin-top: 59px;
+float:  none;
+}
+
+
+.title_articles h6 a{
+	color: #fff;
+	text-decoration: none;
+}
+.title_articles h6 a:hover{
+
+	text-decoration: underline;
+}

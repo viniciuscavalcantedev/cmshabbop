@@ -1,0 +1,43 @@
+@charset = "UTF-8";
+
+.layout_staff
+{
+	margin-top: 9px;
+}
+.img_staff_avatar
+{
+	width: 80px;
+	height: 105px;
+	border: 3px solid #1c59be;
+	border-radius: 8px;
+	float: left;
+}
+
+.layout_staff h6, .layout_staff p
+{
+	text-indent: 1.5em;
+	color: #fff;
+}
+.cont_box_staff
+{
+	background-color: #1a59c1;
+	border-radius: 8px;
+}
+.cont_box_staff h3
+{
+	padding: 5px;
+	color: #fff;
+	text-indent: 0.5em;
+}
+
+.function_ranks
+{
+	background-color: #103571;
+	border-radius: 8px;
+	padding: 5px;
+	height: 78px;
+}
+.function_ranks p
+{
+	color: #fff;
+}

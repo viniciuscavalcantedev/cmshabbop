@@ -1,0 +1,30 @@
+@charset = "UTF-8";
+
+@charset = "UTF-8";
+
+.perfil_card
+{
+	color: #fff;
+}
+.card_perfil_body p 
+{
+	color: #fff;
+	font-size: 11pt;
+}
+
+.number_perfil
+{
+	 list-style-type: decimal;
+	 color: #fff;
+}
+
+.number_perfil li a{
+ color: #fff;
+ text-decoration: none;
+}
+
+.number_perfil li a:hover
+{
+	color: #f50cff;
+	text-decoration: underline;
+}

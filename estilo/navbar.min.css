@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.navbar_habbop{
+ background-image: linear-gradient(to bottom, transparent, #0d2a59);
+}
+
+.nav-habbop li a{
+	color: #fff;
+}
+
+.nav-habbop li a:hover{
+	color: #f50cff;
+}
+.drop-habbop{
+	background-color: #0d2a59;
+}
+
+.drop-habbop a{
+	background-color: #0d2a59;
+}
+
+.drop-habbop a:hover{
+	background-color: #0e3470;
+}
+
+ .back_container{
+ 	 background-image: linear-gradient(to bottom, transparent, #0d2a59);
+ }

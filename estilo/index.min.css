@@ -1,0 +1,183 @@
+@charset = "UTF-8";
+
+
+body{
+
+	background: linear-gradient(#122c62, #122c62);
+}
+
+.request{
+	margin-left: 4px;
+}
+.button_logar, .button_register{
+	background: #b00dba;
+	color: #fff;
+	border: none;
+	box-shadow:  0px 4px #84028c;
+	border-radius: 5px;
+	width:  120px;
+	height: 35px;
+	cursor:  pointer;
+}
+
+.button_request{
+	background: #1162be;
+	color: #fff;
+	border: none;
+	box-shadow:  0px 4px #0a4a93;
+	border-radius: 5px;
+	width:  192px;
+	height: 35px;
+	cursor:  pointer;
+
+}
+.button_logar:hover, .button_register:hover{
+	box-shadow:  0px 3px #84028c;
+}
+
+.button_request:hover{
+	box-shadow:  0px 3px #0a4a93;
+}
+.button_logar:active, .button_register:active{
+	background: #84028c;
+}
+.button_request:active{
+
+	background: #0a4a93;
+}
+.img_bop{
+
+	margin-left: 25%;
+}
+
+.habbop_pink{
+	background: #900595;
+}
+.h_title{
+	color: #fff;
+	 text-shadow: 1px 3px #154697;
+	 margin-top: 63px;
+}
+
+.politica_format{
+	font-size: 14px;
+	color: #878386;
+}
+
+.button_register{
+	background: #b00dba;
+	width: 35%;
+	height: 48px;
+	margin-top: 6px;
+	margin-bottom: 8px;
+}
+.image_index{
+	z-index: 1;
+}
+
+.sizes{
+font-size: 14pt;
+
+}
+.footer_back{
+
+ background: #154697;
+
+}
+
+.format_footer{
+	color: #fff;
+}
+
+.container_fundo{
+	background: #154697;
+}
+.padding_nav{
+	padding: 18px;
+}
+.cotainer_blue_escuro{
+	position: relative;
+	box-shadow: 2px -5px 10px #000;
+	background-color: #0f397f;
+	z-index: 20;
+	margin-bottom: 65px;
+}
+
+.description_h{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.sub_title{
+
+	background-color: #122c62;
+	padding: 5px;
+	border-bottom:  5px solid #b413be;
+}
+
+.sub_title h5{
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.description_hall{
+	background-color: #fff;
+
+}
+.border_avatar{
+	border-bottom: 1px solid #f99bff;
+	border-radius: 5px;
+}
+.container_about{
+	color: #fff;
+
+}
+.about_p{
+	font-size: 18pt;
+	color: #fff;
+}
+
+.description_about_p{
+	background-color: #122c62;
+	border-radius: 8px;
+	padding: 9px;
+}
+#DisplayCamp{
+	display: block;
+}
+#DisplayRegister{
+	display: block;
+}
+#DisplayRequest{
+	display: none;
+
+}
+#displayOptionUm, #displayOptionDois, #displayOptionTres{
+	display: none;
+}
+
+[data-animar]{
+	opacity: 0;
+	transition: .3s;
+}
+[data-animar="left"]{
+	transform: translate3d(-50px,0,0);
+}
+[data-animar="right"]{
+	transform:  translate3d(50px,0,0);
+}
+
+[data-animar].animate{
+	opacity: 1;
+	transform: translate3d(0px,0px,0px);
+}
+
+#alert_danger
+{
+
+	display: none;
+	background-color: #990b0b;
+	color: #fff;
+	padding: 8px;
+
+}
